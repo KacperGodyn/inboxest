@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-free.css">
+    <link rel="icon" type="image/x-icon" href="../rescources/inboxest-logo.png">
+    <title>InBoxest</title>
+</head>
+<body>
+    <div class="container">
+        <p>
+            Sign up
+        </p>
+        <img src="../rescources/inboxest-logo.png" oncontextmenu="return false;">
+        <div class="box">
+            <div class="credentials">
+            <label for="login">Username</label>
+            <input id="login" class="login" type="text" maxlength="22" >
+
+            <label for="password">Password</label>
+            <input id="password" class="password" type="password" minlength="8" maxlength="40" required>
+
+            <label for="reg-password-confirm">Confirm Password</label>
+            <input id="reg-password-confirm" class="reg-password-confirm" type="password" minlength="8" maxlength="40" required>
+            
+            </div>
+            <p id="passwordsError">
+                Provided passwords don't match!<br>
+            </p>
+            <input id="submit-btn" class="submit-btn" type="submit"><br>
+            <div class="terms">
+                Pressing "submit" button means <br>you accept our <a href="">Terms and Conditions</a>.
+            </div>
+        </div>
+    </div>
+
+    <script src="plans.js"></script>
+</body>
+</html>

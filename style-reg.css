@@ -1,0 +1,114 @@
+body{
+    background: #121822;
+    margin: auto;
+    align-items: center;
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+img{
+    max-width: 200px;
+    height: auto;
+    position: absolute;
+    margin-bottom: 100px;
+    margin: 1680px;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media only screen {
+img{
+    width: 40%;
+    margin-bottom: 900px;
+}
+}
+a{
+    font-size: 42px;
+    text-align: center;
+    background-color: #3478E5;
+    padding: 20px 60px 20px 60px;
+    border-radius: 20% / 40%;
+    text-decoration: none;
+    color: black;
+}
+.plan-text{
+    color: #3478E5;
+    font-size: 40px;
+    margin-bottom: 700px;
+    position: absolute;
+    animation: slide-top 1.5s cubic-bezier(0.785, 0.135, 0.150, 0.860) both;
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(2000px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.container{
+    gap: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    flex-direction: column;
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.plans{
+    gap: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.sign-up-bussiness{
+    border: solid #364866 2px;
+    padding: 80px 50px 80px 50px;
+    text-align: center;
+    border-radius: 20% / 20%;
+    color: white;
+	animation: slide-right 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.sign-up-free{
+    border: solid #364866 2px;
+    padding: 180px 50px 180px 50px;
+    text-align: center;
+    border-radius: 20% / 12%;
+    font-size: 22px;
+	animation: slide-left 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(2000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+p{
+    color: white;
+    text-align: left;
+}
